@@ -36,7 +36,6 @@ const Checkout: React.FC = () => {
   const selectedDevices = state?.devices || [];
   const costPerDevice = 200;
   const subtotal = selectedDevices.length * costPerDevice;
-  const tax = subtotal * 0.2; // 20% VAT assumption or 0 based on requirements (User didn't specify tax, but "Total Due" implies calculation. I'll stick to simple subtotal = total for now as per prompt "Subtotal calculation... Total Due")
   const total = subtotal; // Keeping it simple as per prompt
 
   useEffect(() => {

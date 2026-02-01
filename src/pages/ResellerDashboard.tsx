@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import api from '../services/api';
 import DeviceList from '../components/DeviceList';
-import { Users, Monitor, AlertTriangle, ArrowLeft, ShieldCheck, Activity, Search } from 'lucide-react';
+import { Users, Monitor, AlertTriangle, ArrowLeft, ShieldCheck, Search } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 interface ClientStats {

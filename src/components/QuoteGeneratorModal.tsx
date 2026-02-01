@@ -3,7 +3,7 @@ import api from '../services/api';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
 import { Download, Send, X, Check } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 interface ClientStats {
   id: string;
